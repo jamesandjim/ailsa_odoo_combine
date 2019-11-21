@@ -1,0 +1,1115 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_sepa_direct_debit
+# 
+# Translators:
+# Bayarkhuu Bataa, 2018
+# Otgonbayar.A <gobi.mn@gmail.com>, 2018
+# nasaaskii <nasaaskii@gmail.com>, 2018
+# Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2018
+# Tsogjav <Tsogjav2007@yahoo.com>, 2018
+# Ganbold BATKHUYAG <gbatkhuyag@gmail.com>, 2018
+# Onii Onii <onii0223@yahoo.com>, 2018
+# Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 11:50+0000\n"
+"PO-Revision-Date: 2017-09-20 11:39+0000\n"
+"Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2019\n"
+"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: mn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "(if applicable)"
+msgstr "(хэрэв шаардлагатай бол)"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "(optional)"
+msgstr "(заавал биш)"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Address:</strong>"
+msgstr "<strong>Хаяг:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>City:</strong>"
+msgstr "<strong>Хот:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Country:</strong>"
+msgstr "<strong>Улс:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Creditor identifier:</strong>"
+msgstr "<strong>Зарлага гаргагчын таних код:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"<strong>Date and place of signature:</strong> "
+"......................................"
+msgstr ""
+"<strong>Огноо, гарын үсэг зурах хэсэг:</strong> "
+"......................................"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>IBAN account number:</strong>"
+msgstr "<strong>IBAN дансны дугаар:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Mail address:</strong>"
+msgstr "<strong>Шуудангын хаяг:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Mandate identifier:</strong>"
+msgstr "<strong>Мандатны дугаар:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"<strong>Name of the reference party:</strong> "
+"......................................"
+msgstr ""
+"<strong>Холбогдогч талын нэр:</strong> "
+"......................................"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Name:</strong>"
+msgstr "<strong>Нэр:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Phone number:</strong>"
+msgstr "<strong>Утасны дугаар:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Signature:</strong>"
+msgstr "<strong>Гарын үсэг:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Start date:</strong>"
+msgstr "<strong>Эхлэх огноо:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Transaction type:</strong> recurrent"
+msgstr "<strong>Гүйлгээний төрөл:</strong> давтамж"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Zip:</strong>"
+msgstr "<strong>Зип:</strong>"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:151
+#, python-format
+msgid "A debtor account is required to validate a SEPA Direct Debit mandate."
+msgstr ""
+"SEPA-р төлбөр хүлээн авахын тулд орлого хүлээн авах данс тодорхойлогдсон "
+"байх ёстой."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+msgid ""
+"A mandate represents the authorization you receive from a customer\n"
+"                    to automatically collect money on her account."
+msgstr ""
+"Энэхүү мандат нь та өөрийн захиалагчын данснаас автоматаар мөнгө шилжүүлж "
+"авах эрх мэдэл, зөвшөөрөлтэйг гэрчилэх мэдээлэл юм."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_partner_bank_id
+msgid "Account of the customer to collect payments from."
+msgstr "Захиалагч танд төлбөрөө төлөх захиалагчийн банкны данс."
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Active"
+msgstr "Идэвхитэй"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_mandate_search_view
+msgid "Active Mandates"
+msgstr "Хүчинтэй мандат"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_archive_id
+msgid "Archive data containing the generated XML."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_archive_id
+msgid "Archive for this operation"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_xml_file
+msgid "Archived XML file"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_generate_xml_form
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Cancel"
+msgstr "Цуцлах"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+msgid "Click to create a direct debit customer mandate."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Close"
+msgstr "Хаах"
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Closed"
+msgstr "Хаагдсан"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_mandate_search_view
+msgid "Closed Mandates"
+msgstr "Хаагдсан мандат"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_res_company
+msgid "Companies"
+msgstr "Компаниуд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_company_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_company_id
+msgid "Company"
+msgstr "Компани"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_generate_xml_wizard_company_id
+msgid "Company collecting the payments."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_company_id
+msgid "Company for whose invoices the mandate can be used."
+msgstr "Энэхүү мандатын дагуу нэхэмжилж төлбөр хүлээн авах компани"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_res_partner
+msgid "Contact"
+msgstr "Холбох хаяг"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_payment_sdd_mandate_usable
+msgid "Could a SDD mandate be used?"
+msgstr "SDD мандат ашиглах эсэх?"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_create_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_create_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_create_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_create_uid
+msgid "Created by"
+msgstr "Үүсгэгч"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_create_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_create_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_create_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_create_date
+msgid "Created on"
+msgstr "Үүсгэсэн"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_config_settings_sdd_creditor_identifier
+msgid "Creditor identifier"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_config_settings_sdd_creditor_identifier
+msgid "Creditor identifier of your company within SEPA scheme."
+msgstr ""
+"SEPA-д танай компаны зарлага гаргагчын байр сууриар бүртгэгдсэн таних код"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Creditor information"
+msgstr "Зарлага гаргагчын мэдээлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Customer mandate"
+msgstr "Захиалагчийн мандат"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_partner_id
+msgid "Customer whose payments are to be managed by this mandate."
+msgstr "Энэхүү итгэмжлэлээр зохицуулагдан төлбөрөө төлж буй захиалагч"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_start_date
+msgid "Date from which the mandate can be used (inclusive)."
+msgstr "Итгэмжлэл ашиглагдаж эхлэх огноо (тус огноо өөрөө орно)"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_creation_date
+msgid "Date of creation"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_creation_date
+msgid "Date of creation of this XML file."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_end_date
+msgid "Date until which the mandate can be used (exclusive)."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_generate_xml_wizard_required_collection_date
+msgid "Date when the company expects to be paid."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_partner_id
+msgid "Debtor"
+msgstr "Орлого хүлээн авагч"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_partner_bank_id
+msgid "Debtor Account"
+msgstr "Орлогодох данс"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_debtor_id_code
+msgid "Debtor Identifier"
+msgstr "Орлого авагчийн таних код"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Debtor information"
+msgstr "Орлого авагчийн мэдээлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.account_sepa_direct_debit_partner_mandates
+#: model:ir.ui.menu,name:account_sepa_direct_debit.account_sepa_direct_debit_customer_mandates_menu
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_res_partner_view
+msgid "Direct Debit Mandates"
+msgstr "Төлбөр хүлээн авах итгэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_journal_dashboard_kanban_view
+msgid "Direct Debit Payment to Collect"
+msgstr "Хүлээн авах ёстой төлбөрийн орлого"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_search
+msgid "Direct Debit Payments To Collect"
+msgstr "Хүлээн авах ёстой төлбөрийн орлого"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_payments_to_collect_nber
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_journal_dashboard_kanban_view
+msgid "Direct Debit Payments to Collect"
+msgstr "Хүлээн авах ёстой төлбөрийн орлого"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_payment_form
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_invoice_form_inherit
+msgid "Direct Debit collecting method available"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.action_sdd_payments_to_collect
+msgid "Direct debit payments to collect"
+msgstr "Хүлээн авах ёстой төлбөрийн орлого"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_display_name
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_display_name
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_display_name
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_display_name
+msgid "Display Name"
+msgstr "Дэлгэцийн Нэр"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Download SEPA Direct Debit XML"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Draft"
+msgstr "Ноорог"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_mandate_search_view
+msgid "Draft Mandates"
+msgstr "Ноорог итгэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_end_date
+msgid "End Date"
+msgstr "Дуусах Огноо"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "End date"
+msgstr "Дуусах хугацаа"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_partner_sdd_mandate_ids
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_users_sdd_mandate_ids
+msgid "Every mandate belonging to this partner."
+msgstr "Энэ харилцагчид хамаардаг бүх итгэмжлэлүүд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_original_doc_filename
+msgid "File name of original_doc."
+msgstr "Эх баримт бүхий файлын нэр"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_debtor_id_code
+msgid "Free reference identifying the debtor in your company."
+msgstr "Танай компаны орлого авах таник код, та хүссэнээрээ тодорхойл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.action_sdd_account_payment_generate_xml
+msgid "Generate Direct Debit XML"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_generate_xml_form
+msgid "Generate XML"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_form
+msgid "Generated SDD file"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_file
+msgid "Generated XML file"
+msgstr "Боловсруулсан XML файл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Generated file (click to download):"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree
+msgid "History of generated SDD files"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Identification code"
+msgstr "Таних код"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_name
+msgid "Identifier"
+msgstr "Хувийн дугаар"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/res_company.py:38
+#, python-format
+msgid "Invalid creditor identifier. Make sure you made no typo."
+msgstr ""
+"Зарлага гаргагчийн таних дугаар буруу байна. Зөв оруулсан эсэхээ магадлана "
+"уу."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/res_company.py:40
+#, python-format
+msgid "Invalid creditor identifier. Wrong format."
+msgstr "Зарлага гаргагчийн таних дугаар буруу байна. Форматыг шалгана уу."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_invoice
+msgid "Invoice"
+msgstr "Нэхэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: model:mail.message.subtype,description:account_sepa_direct_debit.sdd_mt_invoice_paid_with_mandate
+msgid "Invoice paid via direct debit."
+msgstr "Нэхэмжлэл нь итгэмжлэлээр төлөгдсөн."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_paid_invoice_ids
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Invoices Paid"
+msgstr "Төлөгдсөн нэхэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_paid_invoice_ids
+msgid "Invoices paid using this mandate."
+msgstr "Энэ итгэмжлэлээр төлөгдсөн нэхэмжлэлүүд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Invoices paid with this mandate."
+msgstr "Энэ итгэмжлэлээр төлөгдсөн нэхэмжлэлүүд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_journal
+msgid "Journal"
+msgstr "Журнал"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_payment_journal_id
+msgid "Journal for Direct Debit Payments"
+msgstr "Орлогын төлбөрт зориулсан журнал"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_payment_journal_id
+msgid ""
+"Journal to use to receive SEPA Direct Debit payments from this mandate."
+msgstr "Энэхүү итгэмжлэлээр SEPA шууд төлөлт хүлээн авах журнал."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard___last_update
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard___last_update
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate___last_update
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive___last_update
+msgid "Last Modified on"
+msgstr "Сүүлийн зассан хийсэн огноо"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_write_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_write_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_write_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_write_uid
+msgid "Last Updated by"
+msgstr "Сүүлийн засвар хийсэн"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_write_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_write_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_write_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_write_date
+msgid "Last Updated on"
+msgstr "Сүүлийн засвар хийсэн огноо"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_search
+msgid "Linked to a revoked direct debit mandate"
+msgstr "Хүчингүй болсон итгэмжлэлд холбогдсон байна"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_invoice_search
+msgid "Linked to revoked mandate"
+msgstr "Хүчингүй итгэмжлэлд холбогдсон"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.report,name:account_sepa_direct_debit.sdd_mandate_form_report_main
+msgid "Mandate form"
+msgstr "Итгэмжлэл гаргагч"
+
+#. module: account_sepa_direct_debit
+#: sql_constraint:sdd.mandate:0
+msgid "Mandate identifier must be unique ! Please choose another one."
+msgstr "Итгэмжлэгчийн таних код давхардах ёсгүй ! Өөр утга сонгоно уу."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.server,name:account_sepa_direct_debit.sdd_mandate_state_cron_ir_actions_server
+#: model:ir.cron,cron_name:account_sepa_direct_debit.sdd_mandate_state_cron
+#: model:ir.cron,name:account_sepa_direct_debit.sdd_mandate_state_cron
+msgid "Mandate state updater"
+msgstr "Итгэмжлэлийн төлөв шинэчлэгч"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Mandate validity"
+msgstr "Итгэмжлэл шалгагч"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_filename
+msgid "Name of the generated XML file"
+msgstr "Боловсруулсан XML файлын нэр"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_xml_filename
+msgid "Name of this XML file"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.action_sdd_payments_to_collect
+msgid "No direct debit payment to collect."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_payments_to_collect_nber
+msgid ""
+"Number of Direct Debit payments to be collected for this mandate, that is, "
+"the number of payments that have been generated and posted thanks to this "
+"mandate and still needs their XML file to be generated and sent to the bank "
+"to debit the customer's account."
+msgstr ""
+"Энэ итгэмжлэлд цугласан төлбөр төлөлтийн тоо. Энэхүү итгэмжлэлийн дагуу "
+"бүртгэсэн бөгөөд батлагдсан (санхүүгийн тайланд тусгагдсан) төлбөрийн "
+"бүртгэлийн тоо бөгөөд эдгээрийг XML файлд хөрвүүлж банкруу илгээснээр "
+"харилцагчийн данснаас зарлага хийгдэнэ."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_paid_invoices_nber
+msgid "Number of invoices paid with thid mandate."
+msgstr "Энэхүү итгэмжлэлээр төлөгдсөн нэхэмжлэлийн тоо"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+msgid ""
+"Once an invoice is made\n"
+"                    in Odoo for a customer having an mandate active on the invoice date,\n"
+"                    its validation will trigger its automatic payment, and you will\n"
+"                    then only have to generate a SEPA Direct Debit (SDD) XML file containing this operation\n"
+"                    and send it to your bank to effectively get paid."
+msgstr ""
+"Odoo дээр нэхэмжлэл бүртгэгдсэн даруйд хэрэв захиалагч нь тухайн "
+"нэхэмжлэлийн огноонд харгалзах хүчин төгөлдөр итгэмжлэлтэй бол систем "
+"автоматаар төлбөрийн бүртгэл үүсгэх ба танд тэдгээр үүссэн төлбөрийг SEPA "
+"төлбөр хүлээн авах (SSD) XML файлд хөрвүүлээд банкруу илгээх л ажил үлдэнэ."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_account_invoice_sdd_paying_mandate_id
+msgid ""
+"Once this invoice has been paid with Direct Debit, contains the mandate that"
+" allowed the payment."
+msgstr ""
+"Энэ нэхэмжлэл итгэмжлэлээр төлөгдсөн бол ямар итгэмжлэлээр төлөгдсөн болох "
+"нь нэхэмжлэлийн мэдээлэлд агуулагдана."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree_act
+msgid ""
+"Once you have, you will be able to keep track here of all the files\n"
+"                    you created this way, and what their precise content was."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_one_off
+msgid "One-off Mandate"
+msgstr "Нэг удаагийн итгэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:137
+#, python-format
+msgid ""
+"Only IBAN account numbers can receive SEPA Direct Debit payments. Please "
+"select a journal associated to one."
+msgstr ""
+"Зөвхөн IBAN дугаар бүхий банкны дансаар SEPA орлогын төлбөр хүлээн авах "
+"боломжтой. Тохирох нэг журнал сонгоно уу."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:88
+#, python-format
+msgid ""
+"Only mandates in draft state can be deleted from database when cancelled."
+msgstr ""
+"Цуцлагдсан итгэмжлэл ноорог төлөвт шилжсэн үед л баазаас устгах боломжтой "
+"болно."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_res_partner_view
+msgid "Open this partner's mandates"
+msgstr "Энэ харилцагчийн итгэмжлэлүүдийг нээх"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_original_doc
+msgid "Original Document"
+msgstr "Эх баримт"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_original_doc_filename
+msgid "Original Document File Name"
+msgstr "Эх баримт бүхий файлын нэр"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_original_doc
+msgid ""
+"Original document into which the customer authorises the use of Direct Debit"
+" for his invoices."
+msgstr ""
+"Захиалагч SEPA төлбөр төлөлт ашиглан нэхэмжлэлүүдээ төлж байхыг зөвшөөрч "
+"баталгаажуулсан эх баримт."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_payment_sdd_mandate_id
+msgid "Originating SEPA mandate"
+msgstr "SEPA итгэмжлэлийн гарал үүсэл"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:110
+#, python-format
+msgid "Paid Invoices"
+msgstr "Төлөгдсөн Нэхэмжлэлүүд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_paid_invoices_nber
+msgid "Paid Invoices Number"
+msgstr "Төлөгдсөн нэхэмжлэлийн дугаар"
+
+#. module: account_sepa_direct_debit
+#: model:mail.message.subtype,name:account_sepa_direct_debit.sdd_mt_invoice_paid_with_mandate
+msgid "Paid via direct debit"
+msgstr "SEPA-р төлөгдсөн"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_generate_xml_form
+msgid "Pay with mandate"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_payment
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_payment_ids
+msgid "Payments"
+msgstr "Төлбөрүүд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_payments_to_send_ids
+msgid "Payments To Send"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_payment_ids
+msgid "Payments contained in the generated XML."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_payment_ids
+msgid "Payments contained in this XML file."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Payments generated for this mandate that have not yet been collected."
+msgstr ""
+"Энэ итгэмжлэлээр хийгдсэн бөгөөд хараахан шилжүүлгэ нь хийгдээгүй байгаа "
+"төлбөрүүд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_payment_ids
+msgid "Payments generated thanks to this mandate."
+msgstr "Энэ итгэмжлэлийн ачаар бий болсон төлбөрүүд"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_payments_in_exception
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Payments in exception"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_payment_ids
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_payment_ids
+msgid "Payments in file"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Payments in this file"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:120
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+#, python-format
+msgid "Payments to Collect"
+msgstr "Хүлээн авах ёстой төлбөр"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_payments_in_exception
+msgid ""
+"Payments whose XML could not be generated because they had not been "
+"generated from a SEPA Direct Debit mandate."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Please complete your coordinates."
+msgstr "Байршилын координатаа тодорхойлно уу."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_report_invoice_document
+msgid ""
+"Please do not pay it manually, the payment will be asked to your bank to be processed\n"
+"                        automatically."
+msgstr ""
+"Үүнийг гараар бүү төл. Төлбөр төлөлт нь танай банкны дансаар автоматаар "
+"гүйцэлдэнэ."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Print"
+msgstr "Хэвлэх"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_register_payments
+msgid "Register payments on multiple invoices"
+msgstr "Олон нэхэмжлэл дээр төлбөр бүртгэх"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_required_collection_date
+msgid "Required collection date"
+msgstr "Хүлээх авах ёстой огноо"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Revoke"
+msgstr "Хүчингүй болгох"
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Revoked"
+msgstr "Хүчингүй"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree_act
+#: model:ir.ui.menu,name:account_sepa_direct_debit.account_sepa_direct_debit_sdd_payment_files_menu
+msgid "SDD Payment Files"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_company_sdd_creditor_identifier
+msgid "SDD creditor identifier"
+msgstr "SEPA зарлага гаргагчийн таних дугаар"
+
+#. module: account_sepa_direct_debit
+#: model:account.payment.method,name:account_sepa_direct_debit.payment_method_sdd
+msgid "SEPA Direct Debit"
+msgstr "SEPA орлого хүлээн авах"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "SEPA Direct Debit Mandate"
+msgstr "SEPA төлбөр хүлээн авах итгэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_company_sdd_creditor_identifier
+msgid ""
+"SEPA Direct Debit creditor identifier of the company, given by the bank."
+msgstr ""
+"Компаны SEPA төлбөрийн зарлага гаргагчийн таних дугаар, банкнаас олгогдоно."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:153
+#, python-format
+msgid ""
+"SEPA Direct Debit scheme only accepts IBAN account numbers. Please select an"
+" IBAN-compliant debtor account for this mandate."
+msgstr ""
+"SEPA төлбөр хүлээн авах схем нь зөвхөн IBAN төрөлтэй банкны дансанд "
+"хэрэгжинэ. Энэ итгэмжлэлд зориулж IBAN төрлийн банкны данс сонгоно уу."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_file
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_xml_file
+msgid "SEPA XML file"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_filename
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_xml_filename
+msgid "SEPA XML file name"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_partner_sdd_mandate_ids
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_users_sdd_mandate_ids
+msgid "Sdd Mandate"
+msgstr "SEPA итгэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_invoice_sdd_paying_mandate_id
+msgid "Sdd Paying Mandate"
+msgstr "SEPA төлж буй итгэмжлэл"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_generate_xml_wizard_payments_to_send_ids
+msgid "Set of payments to (try to) put into a SDD XML file."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Signature"
+msgstr "Гарын үсэг"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_start_date
+msgid "Start Date"
+msgstr "Эхлэх Огноо"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_state
+msgid "State"
+msgstr "Муж"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_account_payment_sdd_mandate_usable
+msgid ""
+"Technical field used to inform the end user there is a SDD mandate that "
+"could be used to register that payment"
+msgstr ""
+"Энэ төлбөрийг бүртгэхэд ашиглагдаж буй SEPA итгэмжлэлийн талаар эцсийн "
+"хэрэглэгчид мэдээлэл олгох зориулалттай техникийн талбар"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:139
+#, python-format
+msgid ""
+"The bank account you select for payment must be related to a bank. Please "
+"fix it first."
+msgstr ""
+"Төлбөр дээр сонгож буй банкны дансанд ямар нэг банк тодорхойлогдсон байх "
+"ёстой. Үүнийг засварлана уу."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:141
+#, python-format
+msgid ""
+"The bank your payment account is related to must have a BIC number. Please "
+"define one."
+msgstr ""
+"Таны төлбөрийн банкны данс дээр сонгогдсон банк нь заавал BIC дугаартай байх"
+" ёстой. Үүнийг тодорхойлно уу."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/res_company.py:26
+#, python-format
+msgid "The creditor identifier exceeds the maximum length of 35 characters."
+msgstr ""
+"Зарлага гаргагч талын таних дугаар хамгийн ихдээ 35 тэмдэгттэй байх ёстой."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:147
+#, python-format
+msgid ""
+"The debtor identifier you specified exceeds the limitation of 35 characters "
+"imposed by SEPA regulation"
+msgstr ""
+"SEPA-ын дүрмийн дагуу таны төлбөр хүлээн авагчийн таних дугаар 35 тэмдэгтээс"
+" хэтрэхгүй байх ёстой."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:131
+#, python-format
+msgid ""
+"The end date of the mandate must be posterior or equal to its start date."
+msgstr ""
+"Итгэмжлэлийн дуусах огноо нь эхлэх огнооноос хойшхи эсвэл ижил байх ёстой."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid ""
+"The following payments could not be translated to\n"
+"                            SEPA Direct Debit XML. Either they do not belong to the company you\n"
+"                            are currently connected on, they are not related to\n"
+"                            any mandate, they have already been collected in a\n"
+"                            previously generated file or the bank encoded of their\n"
+"                            customer account does not have any BIC number defined."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_account_payment_sdd_mandate_id
+msgid "The mandate used to generate this payment, if any."
+msgstr ""
+"Энэхүү төлбөрт хэрэглэгдсэн итгэмжлэл. Хоосон байвал итгэмжлэл хэрэглээгүй "
+"гэсэн үг."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"The mandate will only be used to pay invoices into the\n"
+"                    specified time range. If no end date is specified,\n"
+"                    you will have to contact us to stop its use."
+msgstr ""
+"Итгэмжлэл зөвхөн заасан хугацааны мужад хамаарах нэхэмжлэлийг төлнө. Хэрэв "
+"дуусах огноо тодорхойлогдоогүй байвал та үүнийг зогсоохыг хүссэн үедээ "
+"бидэнд хандах хэрэгтэй."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_state
+msgid ""
+"The state this mandate is in. \n"
+"- 'draft' means that this mandate still needs to be confirmed before being usable. \n"
+"- 'active' means that this mandate can be used to pay invoices. \n"
+"- 'closed' designates a mandate that has been marked as not to use anymore without invalidating the previous transactions done with it.- 'revoked' means the mandate has been signaled as fraudulent by the customer. It cannot be used anymore, and should not ever have been. You will probably need to refund the related invoices, if any.\n"
+msgstr ""
+"Итгэмжлэл нь дараах төлвүүдэд явагдана.\n"
+"- 'ноорог' гэдэг бол тухайн итгэмжлэлийг ашиглахын тулд батлах шаардлагатай.\n"
+"- 'хүчинтэй' гэдэг бол тухайн итгэмжлэлийг ашиглан нэхэмжлэл төлөх боломжтой төлөв юм.\n"
+"- 'хаагдсан' гэдэг нь тухайн итгэмжлэлийг цаашид дахин ашиглахгүй байхыг илтгэх төлөв болно.\n"
+"- 'хүчингүй' гэдэг нь захиалагч тухайн итгэмжлэлийг худал хуурмаг гэж мэдэгдсэн тохиолдол юм. Үүнийг дахин ашиглах боломжгүй бөгөөд ашиглах ч ёсгүй юм. Хэрэв ийм итгэмжлэл байгаа бол та уг итгэмжлэлээр хийгдсэн нэхэмжлэл төлөлтүүдийг буцаалт хийж залруулвал зохино.\n"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_name
+msgid "The unique identifier of this mandate."
+msgstr "Энэхүү итгэмжлэлийн дахин давтагдашгүй ялгах дугаар"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"This form grants our company the authorization to\n"
+"                    use direct debit to pay the invoices we send to you."
+msgstr "Энэ бол SEPA-р төлөгдөхийг баталгаажуулж танд илгээж буй нэхэмжлэл."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:169
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:182
+#, python-format
+msgid ""
+"This invoice cannot be paid via SEPA Direct Debit, as there is no valid "
+"mandate available for its customer at its creation date."
+msgstr ""
+"Энэ нэхэмжлэлийг SEPA төлбөр хүлээн авах аргаар төлөх боломжгүй. Учир нь "
+"тухайн захиалагчид тухайн нэхэмжлэлийн огноонд харгалзах ямар нэг хүчин "
+"төгөлдөр итгэмжлэл бүртгэгдээгүй байна."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_report_invoice_document
+msgid ""
+"This invoice will be paid using direct debit and is only\n"
+"                        sent for informative purposes."
+msgstr ""
+"Энэ нэхэмжлэл нь зөвхөн SEPA төлбөр ашиглан төлөгдсөн тухай мэдээлэл хүргэх "
+"зорилготой илгээгдэж байна."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_one_off
+msgid ""
+"True if and only if this mandate can be used for only one transaction. It "
+"will automatically go from 'active' to 'closed' after its first use in "
+"payment if this option is set.\n"
+msgstr ""
+"Энэхүү итгэмжлэлийг ердөө нэг л удаагийн төлбөрт ашиглах бол үүнийг сонгоно."
+" Улмаар энэ итгэмжлэлийг нэг удаа ашиглахад 'хүчинтэй' төлвөөс 'хаагдсан' "
+"төлөвт автоматаар шилжинэ.\n"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:111
+#, python-format
+msgid ""
+"Trying to generate a Direct Debit XML file containing payments from another "
+"company than that file's creditor."
+msgstr ""
+"SEPA төлбөр хүлээн авах XML файлд зарлага гаргагчаас өөр компаны мэдээлэл "
+"багтаахыг оролдож байна."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:114
+#, python-format
+msgid ""
+"Trying to generate a Direct Debit XML for payments coming from another "
+"payment method than SEPA Direct Debit."
+msgstr ""
+"SEPA төлбөрийн аргаас өөр аргаар тодорхойлогдсон төлбөрийн мэдээллийг SEPA "
+"төлбөрийн XML файлд тусгах гэж оролдож байна."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:151
+#, python-format
+msgid ""
+"Trying to register a payment on a mandate belonging to a different partner."
+msgstr ""
+"Төлбөрийн бүртгэл дээр өөр харилцагчийн итгэмжлэл ашиглах гэж оролдож байна."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Unable to generate any data for the selected payments."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Validate"
+msgstr "Батлах"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_invoice.py:32
+#, python-format
+msgid ""
+"You cannot pay an invoice with a mandate that does not cover the moment when"
+" it was issued."
+msgstr ""
+"Та тухайн нэхэмжлэлийн огноонд харгалзах итгэмжлэл байхгүй үед төлбөр "
+"бүртгэх боломжгүй."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree_act
+msgid "You haven't generated any SDD XML payment collection file yet."
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:80
+#, python-format
+msgid ""
+"You must register this mandate's original document before validating it."
+msgstr ""
+"Та итгэмжлэлийг батлахаас өмнө эх хувилбар бүхий баримтыг хавсаргана уу."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/wizard/sdd_xml_wizards.py:29
+#, python-format
+msgid ""
+"Your company must have a creditor identifier in order to issue SEPA Direct "
+"Debit payments requests. It can be defined in accounting module's settings."
+msgstr ""
+"Танай компани SEPA төлбөр хүлээн авахын тулд хүлээн авагч талын таних тусгай"
+" дугаартай байх ёстой. Үүнийг санхүүгийн модулын тохиргоо хэсэгт тохируулах "
+"боломжтой."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_download_xml_wizard
+msgid "sdd.download.xml.wizard"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_generate_xml_wizard
+msgid "sdd.generate.xml.wizard"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_mandate
+msgid "sdd.mandate"
+msgstr ""
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_xml_archive
+msgid "sdd.xml.archive"
+msgstr ""
